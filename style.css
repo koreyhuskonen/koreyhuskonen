@@ -13,14 +13,26 @@ header {
   background-size: cover;
 }
 
+@media all and (max-width: 600px) {
+    header {height: 300px;}
+}
+
 header h1 {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: bolder;
   color: white;
   letter-spacing: 0.05em;
   text-align: center;
   text-transform: uppercase;
   padding-top: 50px;
+}
+
+@media all and (max-width: 600px) {
+    header h1 {font-size: 70px;}
+}
+
+@media all and (max-width: 415px) {
+    header h1 {font-size: 40px;}
 }
 
 nav {
@@ -175,6 +187,10 @@ footer {
 footer nav {
   padding: 20px 0;
   margin-top: 0;
+}
+
+@media all and (max-width: 350px) {
+    footer nav {padding: 10px 0;}
 }
 
 footer p {
