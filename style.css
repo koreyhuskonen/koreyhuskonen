@@ -9,7 +9,7 @@ body {
 
 header {
   height: 450px;
-  background-image: url("https://static.pexels.com/photos/164732/pexels-photo-164732.jpeg");
+  background-image: url("assets/turntable_background.png");
   background-size: cover;
 }
 
@@ -178,7 +178,7 @@ td {
 
 footer {
   height: 100px;
-  background-image: url("https://static.pexels.com/photos/164732/pexels-photo-164732.jpeg");
+  background-image: url("assets/turntable_background.png");
   background-size: cover;
   clear: both;
   overflow: hidden;
